@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  </style>
+    <style>
+    BODY.enterPage{
+    cursor:hand;
+}
+</style>
+<script>
+   function goto(){
+       location.href = "/index"
+   }
+</script>
 </head>
-
-    <body>
+ <div onclick="location.href='/index';">&nbsp;</div>
+    <body class="enterPage"  onclick="goto();">
         <h2 style="text-align: center;">
             &nbsp;</h2>
         <h2 style="text-align: center;">
@@ -27,4 +36,6 @@
             &nbsp;</p>
         <p>
             &nbsp;</p></body>
+
+ </div>           
 </html>
